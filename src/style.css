@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #007bff;
+  --secondary-color: gray;
+  --text-color: #333;
+  --background-color: #f0f0f0;
+}
+
+body {
+  background-color: var(--background-color, "white");
+  color: var(--text-color, "black");
+}
+
+#preloader {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
